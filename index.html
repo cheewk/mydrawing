@@ -1,0 +1,503 @@
+<!-- 
+    IBM In-house {Web Coder} course Assignment Snippet.
+    HTML master file.
+    For internal IBM learning usage.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Page tag title -->
+    <title>My First Webpage</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    
+    <!-- FontAwesome; code after any Themes and Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
+
+    <!-- Customise CSS; code as the last item -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/component.css">
+    <link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet">
+    
+    <!-- OUTLINER for development purposes Only - To be commented out for Production releases -->
+        <style type="text/css">
+            /* body{border: 2px solid blue;} */
+            /* .container{border: 2px solid green;} */
+            /* .jumbotron{border: 3px solid purple;} */
+            /* .row{border: 2px dotted red;} */
+            /* .row[class*='col-']{border: 3px solid purple;} */
+            /* .show{border: 3px solid purple;} */
+        </style>
+</head>
+
+<body>
+    <!-- Top Navigation bar -->
+    <!-- <nav class="navbar fixed-top navbar-light bg-light">
+        <a class="navbar-brand" href="https://www.ibm.com/ibm/sg/en/" target="_blank">
+            <img src="image/ibm_stripblack.png" alt="">
+        </a>
+    </nav> -->
+
+    <!-- CONTAINER - code entire page contents within this div class="container"-->
+    <div class="container-fluid">
+        <!-- ROW1: Jumbotron -->
+        <div class="row">
+            <div class="col-xs-12
+                        col-sm-12
+                        col-md-12
+                        col-lg-12">
+            <!-- Jumbotron example -->
+            <!-- <div class="jumbotron jumbotron-fluid bubble"> -->
+            <div class="jumbotron jumbotron-fluid bubble" id="large-header">
+            <!-- <div class="content"> -->
+            <h1>Hi Im Weng !</h1>
+            <h2>I Draw One Piece Fans Art !</h2>
+            <canvas id="demo-canvas"></canvas>
+            <!-- </div> -->
+            </div>
+
+            <!-- </div> -->
+            </div>
+        <!-- end of ROW1: Jumbotron -->
+        </div>
+
+        <!-- ROW2: Pic Modal -->
+        <div class="row">
+
+            <!-- drop down menu -->
+            <!-- <div class="container">
+                <nav>
+                    <ul>
+                        <li class="sub-menu-parent" tab-index="0">
+                        <a href="#">Luffy</a>
+                        <ul class="sub-menu">
+                        <li>
+                            <img id="myImg" src="https://www.clipstudio.net/view/img/common/main_visual/top_main_CSP_pk.svg" alt="Trolltunga, Norway" width="100" height="50">
+                            <div id="myModal" class="modal">
+                                <span class="close">&times;</span>
+                                <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                        </li>
+                        <li><a href="#"></a></li>                                 
+                        </ul>
+                        </li>
+                                 
+                        <li class="sub-menu-parent" tab-index="0">
+                        <a href="#">Zoro</a>
+                        <ul class="sub-menu">
+                        <li><a href="#">pic</a></li>
+                        <li><a href="#"></a></li>
+                        </ul>
+                        </li>
+                                    
+                        <li class="sub-menu-parent" tab-index="0">
+                        <a href="#">Usopp</a>
+                        <ul class="sub-menu">
+                        <li><a href="#">pic</a></li>
+                        <li><a href="#"></a></li>
+                        </ul>
+                        </li>
+                                            
+                        <li class="sub-menu-parent" tab-index="0">
+                        <a href="#">Nami</a>
+                        <ul class="sub-menu">
+                        <li><a href="#">pic</a></li>
+                        <li><a href="#"></a></li>
+                        </ul>
+                        </li>
+
+                        <li class="sub-menu-parent" tab-index="0">
+                        <a href="#">Franky</a>
+                        <ul class="sub-menu">
+                        <li><a href="#">pic</a></li>
+                        <li><a href="#"></a></li>
+                        </ul>
+                        </li>
+
+                        <li class="sub-menu-parent" tab-index="0">
+                        <a href="#">Chopper</a>
+                        <ul class="sub-menu">
+                        <li><a href="#">coming soon..</a></li>
+                        <li><a href="#"></a></li>
+                        </ul>
+                        </li>
+
+                        <li class="sub-menu-parent" tab-index="0">
+                        <a href="#">Sanji</a>
+                        <ul class="sub-menu">
+                        <li><a href="#">coming soon..</a></li>
+                        <li><a href="#"></a></li>
+                        </ul>
+                        </li>
+
+                        <li class="sub-menu-parent" tab-index="0">
+                        <a href="#">Robin</a>
+                        <ul class="sub-menu">
+                        <li><a href="#">coming soon..</a></li>
+                        <li><a href="#"></a></li>
+                        </ul>
+                        </li>
+
+                        <li class="sub-menu-parent" tab-index="0">
+                        <a href="#">Brook</a>
+                        <ul class="sub-menu">
+                        <li><a href="#">coming soon..</a></li>
+                        <li><a href="#"></a></li>
+                        </ul>
+                        </li>
+                    
+                    </ul>
+                </nav>
+                        
+            </div> -->
+            <!-- end of drop down menu -->
+            
+            <!-- ROW2: Luffy thumb -->
+            <div class="col-xs-12
+                        col-sm-2
+                        col-md-2
+                        col-lg-2">
+                    <!-- Embed Video -->
+                <img class="myImg" src="image/Luffy.png" alt="Luffy" width="144" height="256">
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div><br><br>
+            </div>
+            <!-- end of ROW2: Luffy thumb -->
+
+            <!-- ROW2: Zoro thumb -->
+            <div class="col-xs-12
+                            col-sm-2
+                            col-md-2
+                            col-lg-2">
+                    <!-- Embed Video -->
+                <img class="myImg" src="image/Zoro.png" alt="Zoro" width="144" height="256">
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div><br><br>
+            </div>
+            <!-- end of ROW2: Zoro thumb -->
+        
+            <!-- ROW2: Usopp thumb -->
+            <div class="col-xs-12
+                            col-sm-2
+                            col-md-2
+                            col-lg-2">
+                    <!-- Embed Video -->
+                <img class="myImg" src="image/Usopp.png" alt="Usopp" width="144" height="256">
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div><br><br>
+            </div>
+            <!-- end of ROW2: Usopp thumb -->
+
+            <!-- ROW2: Nami thumb -->
+            <div class="col-xs-12
+                            col-sm-2
+                            col-md-2
+                            col-lg-2">
+                    <!-- Embed Video -->
+                <img class="myImg" src="image/Nami.png" alt="Nami" width="144" height="256">
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div><br><br>
+            </div>
+            <!-- end of ROW2: Nami thumb -->
+
+            <!-- ROW2: Franky thumb -->
+            <div class="col-xs-12
+                            col-sm-2
+                            col-md-2
+                            col-lg-2">
+                    <!-- Embed Video -->
+                <img class="myImg" src="image/Franky.png" alt="Franky" width="256" height="256">
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div><br><br>
+            </div>
+            <!-- end of ROW2: Franky thumb -->
+
+        </div>
+        <!-- end of ROW2: Pic Modal -->
+
+        <!-- ROW3: YouTube vid -->
+        <div class="row">
+                
+            <!-- vid luffy -->
+            <div class="col-xs-12
+                        col-sm-4
+                        col-md-4
+                        col-lg-4 show">
+                <!-- Image Thumbnail -->
+                <div class="img-thumbnail">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9lJW7Ia6pzg" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h3>Luffy</h3>
+                        <p>One Piece x Kantai Collection Cross over</p>
+                        <!-- <a href="#" class="btn btn-primary btn-sm">click</a> -->
+                    </div>
+                </div><br>
+            </div>
+            <!-- end of vid luffy -->
+
+            <!-- vid zoro -->
+            <div class="col-xs-12
+                        col-sm-4
+                        col-md-4
+                        col-lg-4 show">
+                <!-- Image Thumbnail -->
+                <div class="img-thumbnail">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_8GJmvN4EQo" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h3>Zoro</h3>
+                        <p>One Piece x Kantai Collection Cross over</p>
+                        <!-- <a href="#" class="btn btn-primary btn-sm">click</a> -->
+                    </div>
+                </div><br>
+            </div>
+            <!-- end of vid zori -->
+
+            <!-- ROW2 vid Usopp -->
+            <div class="col-xs-12
+                        col-sm-4
+                        col-md-4
+                        col-lg-4 show">
+                <!-- Image Thumbnail -->
+                <div class="img-thumbnail">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HZOpv2AwKig" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h3>Usopp</h3>
+                        <p>One Piece x Kantai Collection Cross over</p>
+                        <!-- <a href="#" class="btn btn-primary btn-sm">click</a> -->
+                    </div>
+                </div><br>
+            </div>
+            <!-- end of vid Usopp -->
+
+            <!-- ROW2 vid Nami -->
+            <div class="col-xs-12
+                        col-sm-4
+                        col-md-4
+                        col-lg-4 show">
+                <!-- Image Thumbnail -->
+                <div class="img-thumbnail">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/457jVNSvZTk" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h3>Nami</h3>
+                        <p>One Piece x Kantai Collection Cross over</p>
+                        <!-- <a href="#" class="btn btn-primary btn-sm">click</a> -->
+                    </div>
+                </div><br>
+            </div>
+            <!-- end of vid Nami -->
+
+            <!-- ROW2 vid Franky -->
+            <div class="col-xs-12
+                        col-sm-4
+                        col-md-4
+                        col-lg-4 show">
+                <!-- Image Thumbnail -->
+                <div class="img-thumbnail">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JmWtL5ASjdA" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h3>Franky</h3>
+                        <p>One Piece x Kantai Collection Cross over</p>
+                        <!-- <a href="#" class="btn btn-primary btn-sm">click</a> -->
+                    </div>
+                </div><br>
+            </div>
+            <!-- end of vid Franky -->
+
+        </div>
+        <!-- end of ROW3:YouTube vid -->
+
+        <!-- full screen video -->
+        <!-- <div class="row">
+            <div class="col-xs-12
+                        col-sm-12
+                        col-md-12
+                        col-lg-12"> -->
+                <!-- Embed Video -->
+                <!-- <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9lJW7Ia6pzg" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div><br> -->
+        <!-- end full screen video -->
+
+        <!-- ROW4: Software & Hardware -->
+        <div class="row">
+            <!-- ROW4 Col1 Software -->
+            <div class="col-xs-12
+                        col-sm-6
+                        col-md-6
+                        col-lg-6 show" align="center">
+                <!-- Table -->
+                <h1>GRAPHIC SOFTWARE - CLIP STUDIO PAINT</h1>
+                <hr>
+                <p>
+                    The Artist's Complete Tool for Drawing &amp; 
+                    Painting - World-class graphic software from Japan.
+                </p>
+                <a href="https://www.clipstudio.net/en" target="_blank">
+                <img src="https://www.clipstudio.net/view/img/common/main_visual/top_main_CSP_pk.svg" class="img-fluid rounded" alt="">
+                </a>
+                <br>
+            </div>
+            <!-- end of ROW4 Col1 Software -->
+
+            <!-- ROW4 Col2 Hardware -->
+            <div class="col-xs-12
+                        col-sm-6
+                        col-md-6
+                        col-lg-6
+                        text-center show" align="center">
+                <h1>MY GEAR - WACOM CINTIQ PRO</h1>
+                <hr>
+                <p>
+                    Wacom Cintiq Pro is designed for professional artists and designers who demand an intuitive, 
+                    pen-on-screen connection to their work. 
+                    Whether you work on Mac or PC, Wacom Cintiq Pro featuring Wacom Pro Pen 2 
+                    is our most advanced creative pen display. 
+                </p>
+                <a href="http://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro" target="_blank">
+                <img src="http://www.wacom.com/-/media/images/products/pen-displays/cintiq%20pro%20overview/wacom%20cintiq%20pro%2016%20compare%20icon.jpg?h=280&la=en&w=343&hash=207C333154EE3811EE30B2684406856DA8D75F66" class="img-fluid rounded" alt="">
+                </a>
+                <br>
+            </div>
+            <!-- end of ROW4 Col2 Hardware -->
+        
+        </div><br>
+        <!-- end of ROW4: Software & Hardware -->
+
+        <!-- ROW5: Facebook & Calendar -->
+        <div class="row">
+         
+            <!-- ROW5: facebook -->
+            <div class="col-xs-12
+                        col-sm-4
+                        col-md-4
+                        col-lg-4 show">
+                <!-- Embed Map -->
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FWuuu-358630824609778%2F&tabs=timeline&width=800&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"  style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+            </div><br>
+            <!-- end of ROW5: facebook -->
+
+            <!-- ROW5 Col2: Calendar -->
+            <div class="col-xs-12
+                        col-sm-4
+                        col-md-4
+                        col-lg-4 show">
+                <!-- Embed Map -->
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://calendar.google.com/calendar/embed?src=en.singapore%23holiday%40group.v.calendar.google.com&ctz=Asia%2FSingapore" class class="embed-responsive-item"></iframe>
+                </div>
+            </div><br>
+            <!-- end of ROW5 Col2: Calender -->
+
+            <!-- ROW5 Col3: List group -->
+            <!-- <div class="col-xs-12
+                            col-sm-4
+                            col-md-4
+                            col-lg-4 show">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="fa fa-telegram fa-fw"></i> one
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="fa fa-telegram fa-fw"></i> two
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="fa fa-telegram fa-fw"></i> three
+                    </a>
+                </div>
+            </div> -->
+            <!-- end of ROW5 Col3: List group -->
+
+        </div><hr>
+            <!-- end of ROW5: Details -->
+
+        <!-- ROW6: Footer -->
+        <!-- <div class="row">
+            <div class="col-xs-12
+                        col-sm-12
+                        col-md-12
+                        col-lg-12">
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fa fa-facebook fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fa fa-twitter fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fa fa-linkedin fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
+        <!-- end of ROW6: Footer -->
+
+        <!-- button to scroll back to top -->
+        <div>
+            <!-- Return to Top -->
+            <a href="javascript:" id="return-to-top">
+            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </a>
+        </div>
+    
+    </div>
+    <!-- end of CONTAINER - code entire page contents within this div class="container"-->
+
+    <!-- JavaScript - jQuery first, follows by tether.js, Popper.js, then Bootstrap JS in sequence -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/tether/1.4.0/tether.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="//www.youtube.com/player_api"></script>
+    <div id="player"></div>
+    <!-- Customise JavaScript -->
+    <script src="javascript/javascript.js"></script>
+    <script src="javascript/bubble.js"></script>
+    
+</body>
+
+</html>
