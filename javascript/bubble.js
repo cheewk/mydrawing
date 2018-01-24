@@ -8,7 +8,7 @@
 
     function initHeader() {
         width = window.innerWidth;
-        height = window.innerHeight;
+        height = 400;
         target = {x: 0, y: height};
 
         largeHeader = document.getElementById('large-header');
@@ -21,7 +21,7 @@
 
         // create particles
         circles = [];
-        for(var x = 0; x < width*0.5; x++) {
+        for(var x = 0; x < width*1; x++) {
             var c = new Circle();
             circles.push(c);
         }

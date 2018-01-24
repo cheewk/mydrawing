@@ -1,0 +1,137 @@
+/* 
+    IBM In-house {Web Coder} course Assignment Snippet.
+    CSS styling slave file.
+    For internal IBM learning usage.
+*/
+
+
+/*  ----- HTML Body Styles -----  */
+body {
+  /* Position: relative; */
+  /* margin: 0;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif; */
+  font-family: 'Waiting for the Sunrise', cursive; font-size: 22px;
+  /* Padding for top navbar fixed  */
+  padding-top: 5px; 
+}
+
+html {
+  /* font-size: 14px;
+  height: 100%; */
+  box-sizing: border-box;
+}
+
+  nav > a > img {
+    height: 22px;
+  }
+
+  /* Responsive typography */
+  /* 
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 16px;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 20px;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 28px;
+    } 
+  */
+
+  /* Jumbotron */
+  .jumbotron{
+    background-image: url("../image/lux.jpg");
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height:480px;
+    color: white;
+  }
+
+  /* Box-sizing */
+  .selector-for-some-widget {
+      box-sizing: content-box;
+  }
+
+  /* LAYOUT - Responsive breakpoints */
+  /* // Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 575px) {  
+
+  }
+
+  /* // Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767px) {  
+
+  }
+
+  /* // Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991px) {  
+
+  }
+
+  /* // Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199px) {  
+      
+  }
+
+  /* // Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+
+  }
+
+.sub-menu-parent { position: relative; z-index: 1; height: 4em; }
+
+.sub-menu { 
+  visibility: hidden; /* hides sub-menu */
+  opacity: 50;
+  position: absolute;
+  top: 70%;
+  left: 0;
+  width: 100%;
+  border-radius: 4px;
+  transform: translateY(-2em);
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+
+.sub-menu-parent:focus .sub-menu,
+.sub-menu-parent:focus-within .sub-menu,
+.sub-menu-parent:hover .sub-menu {
+  visibility: visible; /* shows sub-menu */
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
+}
+
+
+/* presentational */
+/* body { padding: 2%; font: 18px/1.4 , Architects Daughter, cursive; } */
+nav a { color: rgb(160, 160, 160); display: block; padding: 0.5em 1em; text-decoration: none; width: 5em; }
+nav a:hover { color: rgb(159, 201, 243); background-color: rgb(255, 255, 255); text-decoration-line: none; }
+nav ul,
+nav ul li { list-style-type: none; padding: 0; margin: 0; }
+
+/* menu background color */
+nav > ul { background: rgb(255, 255, 255); text-align: center; }
+
+/*separator line color */
+nav > ul > li { display: inline-block; border-left: solid 1px rgb(255, 255, 255); }
+nav > ul > li:first-child { border-left: none; }
+
+.sub-menu {
+  background: rgb(255, 255, 255);
+}
+   
+
+
