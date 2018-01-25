@@ -48,14 +48,14 @@ html {
 
   /* Jumbotron */
   .jumbotron{
-    background-image: url("../image/opxkantai.png");
+    background-image: url("../image/lux.jpg");
     display: block;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    height:480px;
-    color: rgb(255, 255, 255);
+    
+    color: white;
   }
 
   /* Box-sizing */
@@ -133,5 +133,6 @@ nav > ul > li:first-child { border-left: none; }
   background: rgb(255, 255, 255);
 }
    
+
 
 
