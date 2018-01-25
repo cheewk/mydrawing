@@ -48,7 +48,7 @@ html {
 
   /* Jumbotron */
   .jumbotron{
-    background-image: url("image/opxkantai.png");
+    background-image: url("../image/opxkantai.png");
     display: block;
     background-size: cover;
     background-repeat: no-repeat;
